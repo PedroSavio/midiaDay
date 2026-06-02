@@ -51,6 +51,9 @@ next-env.d.ts
 !.vscode/extensions.json
 .idea
 
+# Confirmações de presença (RSVP) salvas localmente
+/data
+
 # Other
 dev-dist
 

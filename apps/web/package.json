@@ -9,12 +9,9 @@
   },
   "dependencies": {
     "@libsql/client": "^0.17.3",
-    "@savioDay/auth": "workspace:*",
     "@savioDay/env": "workspace:*",
     "@savioDay/ui": "workspace:*",
-    "@tanstack/react-form": "^1.28.0",
     "babel-plugin-react-compiler": "^1.0.0",
-    "better-auth": "catalog:",
     "dotenv": "catalog:",
     "lucide-react": "catalog:",
     "next": "^16.2.0",

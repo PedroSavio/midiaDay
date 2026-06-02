@@ -5,7 +5,8 @@
     "build": {
       "dependsOn": ["^build"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": ["dist/**", ".next/**"],
+      "env": ["NODE_ENV", "TURSO_DATABASE_URL", "TURSO_AUTH_TOKEN"]
     },
     "lint": {
       "dependsOn": ["^lint"]

@@ -1,0 +1,3 @@
+{
+  "extends": "@savioDay/config/tsconfig.base.json"
+}
